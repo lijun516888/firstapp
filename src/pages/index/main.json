@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+  	"i-card": "../../../static/iview/card/index",
+  	"i-rate": "../../../static/iview/rate/index",
+  	"i-cell": "../../../static/iview/cell/index",
+    "i-load-more": "../../../static/iview/load-more/index",
+    "i-button": "../../../static/iview/button/index"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/main"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小欧家美衣VIP",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#F2f2f2",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "backgroundColor": "#292929",
+    "list": [
+      {
+        "selectedIconPath": "static/images/index-select.png",
+        "iconPath": "static/images/index.png",
+        "pagePath": "pages/index/main",
+        "text": "商城"
+      },
+      {
+        "selectedIconPath": "static/images/index.png",
+        "iconPath": "static/images/index.png",
+        "pagePath": "pages/index/main",
+        "text": "团购"
+      },
+      {
+        "selectedIconPath": "static/images/index.png",
+        "iconPath": "static/images/index.png",
+        "pagePath": "pages/index/main",
+        "text": "秒杀"
+      },
+      {
+        "selectedIconPath": "static/images/index.png",
+        "iconPath": "static/images/index.png",
+        "pagePath": "pages/index/main",
+        "text": "我的"
+      }
+    ]
+  },
+  "debug": true
+}
