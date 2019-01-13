@@ -1,24 +1,25 @@
 <template>
   <div>
     <Swiper :images="images" />
-    <i-card full title="卡片标题" extra="100$" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
-      <view slot="content">内容不错</view>
-      <view slot="footer">尾部内容</view>
+    <i-card full title="品牌: 其他/other" extra="¥238.00" thumb="https://gd2.alicdn.com/imgextra/i4/671434189/O1CN014XbgjI1gobbNQXkcE_!!671434189.jpg_400x400.jpg">
+      <view slot="content">ITSCLIMAX一件过冬基础款侧边无缝加厚加绒束脚裤保暖小脚休闲裤</view>
+      <view slot="footer"> 海量新品 潮流穿搭 玩趣互动</view>
     </i-card>
-    <i-card full title="卡片标题" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
-      <view slot="content">内容不错</view>
+
+    <i-card full title="品牌: 其他/other" extra="¥238.00" thumb="https://gd2.alicdn.com/imgextra/i4/671434189/O1CN014XbgjI1gobbNQXkcE_!!671434189.jpg_400x400.jpg">
+      <view slot="content">ITSCLIMAX一件过冬基础款侧边无缝加厚加绒束脚裤保暖小脚休闲裤</view>
+      <view slot="footer"> 海量新品 潮流穿搭 玩趣互动</view>
     </i-card>
-    <i-card full title="卡片标题" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
-      <view slot="content">内容不错</view>
-      <view slot="footer">尾部内容</view>
+
+    <i-card full title="品牌: 其他/other" extra="¥238.00" thumb="https://gd2.alicdn.com/imgextra/i4/671434189/O1CN014XbgjI1gobbNQXkcE_!!671434189.jpg_400x400.jpg">
+      <view slot="content">ITSCLIMAX一件过冬基础款侧边无缝加厚加绒束脚裤保暖小脚休闲裤</view>
+      <view slot="footer"> 海量新品 潮流穿搭 玩趣互动</view>
     </i-card>
-    <i-card full title="卡片标题" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
-      <view slot="content">内容不错</view>
-      <view slot="footer">尾部内容</view>
-    </i-card>
+
+
     <i-cell-group>
       <i-cell title="基本用法">
-          <i-rate 
+          <i-rate
               value="1">
           </i-rate>
       </i-cell>
@@ -37,7 +38,7 @@
   <i-button bind:click="handleClick" type="primary" size="large">大尺寸</i-button>
 
   </div>
-</template>~  
+</template>~
 
 <script>
 import Swiper from '@/components/swiper'

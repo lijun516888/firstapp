@@ -1,6 +1,7 @@
 export function fetchSwiperList () {
   return [
-    {url: 'https://img-oss.yunshanmeicai.com/goods/default/31d8dfa4-0d7b-4694-80f9-41b07c9d0a3a.png'},
-    {url: 'https://img-oss.yunshanmeicai.com/goods/default/e83c8f0f-4acc-4729-bcbb-294f2b314977.jpg'},
-    {url: 'https://img-oss.yunshanmeicai.com/goods/default/e83c8f0f-4acc-4729-bcbb-294f2b314977.jpg'}]
+    {url: 'https://img.alicdn.com/tps/i4/TB17YNaArrpK1RjSZTESuwWAVXa.jpg_1080x1800Q90s50.jpg'},
+    {url: 'https://aecpm.alicdn.com/simba/img/TB1xuyJBjTpK1RjSZKPSuu3UpXa.jpg'},
+    {url: 'https://img.alicdn.com/tps/i4/TB1jJ3SAVzqK1RjSZFvSuwB7VXa.jpg_1080x1800Q90s50.jpg'},
+    {url: 'https://img.alicdn.com/tfs/TB1gVLZAAvoK1RjSZPfXXXPKFXa-990-360.jpg_1080x1800Q90s50.jpg'}]
 }
