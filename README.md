@@ -23,3 +23,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 http://v1.iviewui.com/
 https://cn.vuejs.org/v2/api/#Vue-use
 https://weapp.iviewui.com/
+
+
+npm install es6-promise
+npm install flyio --save

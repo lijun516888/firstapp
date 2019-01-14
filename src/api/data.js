@@ -1,3 +1,5 @@
+var request = require("utils/request")
+
 export function fetchSwiperList () {
   return [
     {url: 'https://img.alicdn.com/tps/i4/TB17YNaArrpK1RjSZTESuwWAVXa.jpg_1080x1800Q90s50.jpg'},
