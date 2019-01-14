@@ -1,6 +1,7 @@
 <template>
   <div>
     <Swiper :images="images" />
+
     <i-card full title="品牌: 其他/other" extra="¥238.00" thumb="https://gd2.alicdn.com/imgextra/i4/671434189/O1CN014XbgjI1gobbNQXkcE_!!671434189.jpg_400x400.jpg">
       <view slot="content">ITSCLIMAX一件过冬基础款侧边无缝加厚加绒束脚裤保暖小脚休闲裤</view>
       <view slot="footer"> 海量新品 潮流穿搭 玩趣互动</view>
@@ -55,7 +56,9 @@ export default {
   },
   methods: {
     getList () {
-      this.images = fetchSwiperList()
+      fetchSwiperList().then(result => {
+        this.images = result
+      })
     }
   }
 }
